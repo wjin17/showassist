@@ -32,7 +32,8 @@ git checkout -b branch-name
 git add .
 git commit -m "your message here"
 
-# when committing code, explain what was done using imperative language, e.g., "add twitter pipeline" instead of "added twitter pipeline"
+# when committing code, explain what was done using imperative language,
+# e.g., "add twitter pipeline" instead of "added twitter pipeline"
 ```
 
 Done with a new feature
@@ -53,11 +54,11 @@ If there are any significant changes to the project, e.g., changing resources/up
 
 This is just a general outline, not a rigid definition. Please add detail where necessary and adjust the schemas accordingly.
 
-users and artists should be many to many
-artist and performer should be one to many
-perfomer and performer_resources should be one to many
-performer and show should be many to many
-show and presale should be one to many
+- users and artists should be many to many
+- artist and performer should be one to many
+- perfomer and performer_resources should be one to many
+- performer and show should be many to many
+- show and presale should be one to many
 
 ```sql
 TABLE user (
