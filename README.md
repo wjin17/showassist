@@ -26,16 +26,36 @@ pip3 install podman-compose
 
 ## Scripts
 
-Start containers with
+Start services
 
 ```bash
+# for all services
 podman-compose up -d
+
+# for specific service
+podman-compose up your-service -d
 ```
 
-Stop containers with
+Stop services
 
 ```bash
+# for all services
 podman-compose down
+
+# for specific service
+podman-compose down your-service
+```
+
+Complete clean up, removes containers, images, and volumes
+
+```bash
+./clean_podman
+```
+
+Enter a container's shell
+
+```bash
+podman exec -it your-container /bin/bash
 ```
 
 ## Workflow

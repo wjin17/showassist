@@ -1,1 +1,0 @@
-psql -U $POSTGRES_USER -p $POSTGRES_PASSWORD -d $POSTGRES_DB -a -f /app/scripts/db/dev.sql
