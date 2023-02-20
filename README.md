@@ -10,6 +10,34 @@ Clone the repo
 git clone git@github.com:wjin17/showassist.git
 ```
 
+Install dependencies
+
+[Podman](https://podman.io/getting-started/installation)
+
+```bash
+brew install podman
+```
+
+[Podman Compose](https://github.com/containers/podman-compose)
+
+```bash
+pip3 install podman-compose
+```
+
+## Scripts
+
+Start containers with
+
+```bash
+podman-compose up -d
+```
+
+Stop containers with
+
+```bash
+podman-compose down
+```
+
 ## Workflow
 
 When working on the project, remember to run the following commands before doing any work.
