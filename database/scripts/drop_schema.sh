@@ -1,1 +1,1 @@
-psql -U $POSTGRES_USER -a -c 'SELECT schema_name FROM information_schema.schemata'
+psql -U $POSTGRES_USER -a -c 'DROP SCHEMA IF EXISTS dev CASCADE'
